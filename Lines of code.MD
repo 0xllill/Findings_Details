@@ -1,0 +1,33 @@
+Lines of code
+Equity.sol#restructureCapTable:https://github.com/code-423n4/2023-04-frankencoin/blob/main/contracts/Equity.sol#L309-L316
+
+Vulnerability details
+Impact
+RestructureCaptable is a function to use in case of disaster like scenario where there are less than 1000 zchf in equity left.
+The idea of this function is for a small group of FPS holders to "save" the project.
+But this function is malformed and would hurt a single user or revert in case he/she would not own enough amount of zchf
+
+Proof of Concept
+function restructureCapTable(address[] calldata helpers, address[] calldata addressesToWipe) public {
+    require(zchf.equity() < MINIMUM_EQUITY);
+    checkQualified(msg.sender, helpers);  // check 3%
+    for (uint256 i = 0; i<addressesToWipe.length; i++){
+        address current = addressesToWipe[0]; //@audit-issue replace to addressToWipe[i]
+        _burn(current, balanceOf(current));
+    }
+}
+Tools Used
+VS Code
+
+## Recommended Mitigation Steps
+Replace the code
+
+function restructureCapTable(address[] calldata helpers, address[] calldata addressesToWipe) public {
+    require(zchf.equity() < MINIMUM_EQUITY);
+    checkQualified(msg.sender, helpers);  // check 3%
+    for (uint256 i = 0; i<addressesToWipe.length; i++){
++       address current = addressesToWipe[i]; 
+-       address current = addressesToWipe[0];
+        _burn(current, balanceOf(current));
+    }
+}
