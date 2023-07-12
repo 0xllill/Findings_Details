@@ -5,7 +5,7 @@ This repository contains web3 vulnerabilities discovered during Sherlock or Code
 ## Table of Contents
 
 1. [JOJO (High: 1, Medium: 0)](#JOJO)
-2. [RealWagmi (High: 1, Medium: 2,Low : 0)](#RealWagmi)
+2. [RealWagmi (High: 1, Medium: 2,Low : 1)](#RealWagmi)
 3. [USSD (High: 2, Medium: 5)](#USSD)
 4. [Y2K (High: 1, Medium: 0)](#Y2K)
 5. [Derby (High: 0, Medium: 2)](#Derby)
@@ -27,36 +27,36 @@ This repository contains web3 vulnerabilities discovered during Sherlock or Code
 
 ## USSD
 
-- [Unchecked Slippage](<link-to-H_USSD_UncheckedSlippage.md>)
-- [Unrestricted Minting Burning Method](<link-to-H_USSD_UnrestrictedMintingBurningMethod.md>)
-- [Misconfigured Oracle Address](<link-to-M_USSD_Misconfigured Oracle Address.md>)
-- [Misconfigured Price Feed Aggregator](<link-to-M_USSD_Misconfigured Price Feed Aggregator.md>)
-- [Outdated Price](<link-to-M_USSD_OutdatedPrice.md>)
-- [Rounding Error](<link-to-M_USSD_RoundingError.md>)
-- [Uninitialized Oracle Address](<link-to-M_USSD_Uninitialized Oracle Address.md>)
+- [Unchecked Slippage](<https://github.com/nasri136/Findings_Details/blob/main/H_USSD_UncheckedSlippage.md>)
+- [Unrestricted Minting Burning Method](<https://github.com/nasri136/Findings_Details/blob/main/H_USSD_UnrestrictedMintingBurningMethod.md>)
+- [Misconfigured Oracle Address](<https://github.com/nasri136/Findings_Details/blob/main/M_USSD_Misconfigured%20Oracle%20Address.md>)
+- [Misconfigured Price Feed Aggregator](<https://github.com/nasri136/Findings_Details/blob/main/M_USSD_Misconfigured%20Price%20Feed%20Aggregator.md>)
+- [Outdated Price](<https://github.com/nasri136/Findings_Details/blob/main/M_USSD_OutdatedPrice.md>)
+- [Rounding Error](<https://github.com/nasri136/Findings_Details/blob/main/M_USSD_RoundingError.md>)
+- [Uninitialized Oracle Address](<https://github.com/nasri136/Findings_Details/blob/main/M_USSD_Uninitialized%20Oracle%20Address.md>)
 
 ## Y2K
 
-- [Users can update and delete others' queues](<link-to-H_Y2K_Users can update and delete others queues.md>)
+- [Users can update and delete others' queues](<https://github.com/nasri136/Findings_Details/blob/main/H_Y2K_Users%20can%20update%20and%20delete%20others%20queues.md>)
 
 ## Derby
 
-- [ERC20 Return Value Not Checked](<link-to-M_Derby_ERC20 ReturnValueNotChecked.md>)
-- [Native Funds Can Be Lost](<link-to-M_Derby_NativeFundsCanBeLost.md>)
+- [ERC20 Return Value Not Checked](<https://github.com/nasri136/Findings_Details/blob/main/M_Derby_ERC20%20Return%20Value%20Not%20Checked.md>)
+- [Native Funds Can Be Lost](<https://github.com/nasri136/Findings_Details/blob/main/M_Derby_Native%20Funds%20Can%20Be%20Lost.md>)
 
 ## Frankencoin
 
-- [Minting limit is not well affected by cl](<link-to-M_Frankencoin_Minting limit is not well affected by cl.md>)
-- [RestructureCaptable Not Well Implemented](<link-to-M_Frankencoin_RestructureCaptable Not Well Implemented.md>)
+- [Minting limit is not well affected by cl](<https://github.com/nasri136/Findings_Details/blob/main/M_Frankencoin_Minting%20limit%20is%20not%20well%20affected%20by%20cl.md>)
+- [RestructureCaptable Not Well Implemented](<https://github.com/nasri136/Findings_Details/blob/main/M_Frankencoin_RestructureCaptable%20Not%20Well%20Implemented>)
 
 ## Gitcoin
 
-- [Lack of Access Control leading to DOS](<link-to-M_Gitcoin_Lack of Access Control leading to DOS.md>)
+- [Lack of Access Control leading to DOS](<https://github.com/nasri136/Findings_Details/blob/main/M_Gitcoin_Lack%20of%20Access%20Control%20leading%20to%20DOS.md>)
 
 ## Malt
 
-- [PriceTargetInconsisten](<link-to-M_Malt_PriceTargetInconsisten.md>)
+- [PriceTargetInconsisten](<https://github.com/nasri136/Findings_Details/blob/main/M_Malt_PriceTargetInconsisten.md>)
 
 ## Telcoin
 
-- [Front Run of addBlackList()](<link-to-M_Telcoin_FrontRunofaddBlackList.md>)
+- [Front Run of addBlackList()](<https://github.com/nasri136/Findings_Details/blob/main/M_Telcoin_Front%20Run%20of%20addBlackList().md>)
