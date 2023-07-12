@@ -16,13 +16,14 @@ This repository contains web3 vulnerabilities discovered during Sherlock or Code
 
 ## JOJO
 
-- [Loss Of Funds When Transfering](<link-to-H_JOJO_LossOfFundsWhenTransfering.md>)
+- [Loss Of Funds When Transfering](<https://github.com/nasri136/Findings_Details/blob/main/H_JOJO_LossOfFundsWhenTransfering.md>)
 
 ## RealWagmi
 
-- [Slot0 Usage](<link-to-H_RealWagmi_Slot0Usage.md>)
-- [Rounding Error](<link-to-M_RealWagmi_RoundingError.md>)
-- [Rounding Error 2](<link-to-M_RealWagmi_RoundingError2.md>)
+- [Slot0 Usage](<https://github.com/nasri136/Findings_Details/blob/main/H_RealWagmi_Slot0Usage.md>)
+- [Rounding Error](<https://github.com/nasri136/Findings_Details/blob/main/M_RealWagmi_RoundingError.md>)
+- [Rounding Error 2](<https://github.com/nasri136/Findings_Details/blob/main/M_RealWagmi_RoundingError2.md>)
+- [Manager Exit Scam](<https://github.com/nasri136/Findings_Details/blob/main/L_RealWagmi_ManagerExit.md>)
 
 ## USSD
 
