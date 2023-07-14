@@ -4,17 +4,22 @@ This repository contains web3 vulnerabilities discovered during Sherlock or Code
 
 ## Table of Contents
 
-1. [JOJO (High: 1, Medium: 0)](#JOJO)
-2. [RealWagmi (High: 1, Medium: 2,Low : 1)](#RealWagmi)
-3. [USSD (High: 2, Medium: 5)](#USSD)
-4. [Y2K (High: 1, Medium: 0)](#Y2K)
-5. [Derby (High: 0, Medium: 2)](#Derby)
-6. [Frankencoin (High: 0, Medium: 2)](#Frankencoin)
-7. [Gitcoin (High: 0, Medium: 1)](#Gitcoin)
-8. [Malt (High: 0, Medium: 1)](#Malt)
-9. [Telcoin (High: 0, Medium: 1)](#Telcoin)
-10. [Bond (High: 0, Medium: 1)](#Bond)
+1. [Arrakis (High: 0, Medium: 2)](#Arrakis)
+2. [JOJO (High: 1, Medium: 0)](#JOJO)
+3. [RealWagmi (High: 1, Medium: 2,Low : 1)](#RealWagmi)
+4. [USSD (High: 2, Medium: 5)](#USSD)
+5. [Y2K (High: 1, Medium: 0)](#Y2K)
+6. [Derby (High: 0, Medium: 2)](#Derby)
+7. [Frankencoin (High: 0, Medium: 2)](#Frankencoin)
+8. [Gitcoin (High: 0, Medium: 1)](#Gitcoin)
+9. [Malt (High: 0, Medium: 1)](#Malt)
+10. [Telcoin (High: 0, Medium: 1)](#Telcoin)
+11. [Bond (High: 0, Medium: 1)](#Bond)
 
+
+## Arrakis
+- [Initialize() allows whitelisting token0 and token1 as routers](<https://github.com/nasri136/Findings_Details/blob/main/M_Arrakis_Token0_1_WhitelistIsIneffective.md>)
+- [Slot0 Usage is easily manipulable](<https://github.com/nasri136/Findings_Details/blob/main/M_Arrakis_Slot0.md>)
 
 ## JOJO
 
