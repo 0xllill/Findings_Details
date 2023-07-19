@@ -4,17 +4,27 @@ This repository contains web3 vulnerabilities discovered during Sherlock or Code
 
 ## Table of Contents
 
-1. [Arrakis (High: 0, Medium: 2)](#Arrakis)
-2. [JOJO (High: 1, Medium: 0)](#JOJO)
-3. [RealWagmi (High: 1, Medium: 2,Low : 1)](#RealWagmi)
-4. [USSD (High: 2, Medium: 5)](#USSD)
-5. [Y2K (High: 1, Medium: 0)](#Y2K)
-6. [Derby (High: 0, Medium: 2)](#Derby)
-7. [Frankencoin (High: 0, Medium: 2)](#Frankencoin)
-8. [Gitcoin (High: 0, Medium: 1)](#Gitcoin)
-9. [Malt (High: 0, Medium: 1)](#Malt)
-10. [Telcoin (High: 0, Medium: 1)](#Telcoin)
-11. [Bond (High: 0, Medium: 1)](#Bond)
+1. [Hubble Exchange (High: 2, Medium: 2)](#Hubble_Exchange)
+2. [Arrakis (High: 0, Medium: 2)](#Arrakis)
+3. [JOJO (High: 1, Medium: 0)](#JOJO)
+4. [RealWagmi (High: 1, Medium: 2,Low : 1)](#RealWagmi)
+5. [USSD (High: 2, Medium: 5)](#USSD)
+6. [Y2K (High: 1, Medium: 0)](#Y2K)
+7. [Derby (High: 0, Medium: 2)](#Derby)
+8. [Frankencoin (High: 0, Medium: 2)](#Frankencoin)
+9. [Gitcoin (High: 0, Medium: 1)](#Gitcoin)
+10. [Malt (High: 0, Medium: 1)](#Malt)
+11. [Telcoin (High: 0, Medium: 1)](#Telcoin)
+12. [Bond (High: 0, Medium: 1)](#Bond)
+
+
+## Hubble_Exchange
+- [Depositors might receive zero shares due to integer division](<https://github.com/nasri136/Findings_Details/blob/main/H_HubbleExchange_ZeroShareReceptionMightHappen.md>)
+- [Malicious user can blocks withdraws](<https://github.com/nasri136/Findings_Details/blob/main/H_HubbleExchange_WithdrawalBreakPoint.md>)
+- [Oracle.sol Assume that stablecoin Price is stable](<https://github.com/nasri136/Findings_Details/blob/main/M_HubbleExchange_StablePriceAssumption.md>)
+- [latestRoundData might return stale or incorrect results](<https://github.com/nasri136/Findings_Details/blob/main/M_HubbleExchange_StalePrice.md>) 
+
+
 
 
 ## Arrakis
