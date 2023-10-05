@@ -13,7 +13,7 @@ Discord: @lil_eth
 
 | Overall | High risk |  Medium risk | Audited contests |
 |:--:|:--:|:--:|:--:|
-| 1 High/Medium | 11 High | 22 Medium | 5 Low |  
+| 33 High/Medium | 11 High | 22 Medium | 5 Low |  
 
 # Sherlock  <img src="https://audits.sherlock.xyz/_next/static/media/sherlock_logo.dc2b3290.svg" width=22 height=22>
 
