@@ -5,7 +5,7 @@ Hey ! I'm Lilian ,an old independent blockchain security researcher currently ac
 ### Contact Information
 I am always looking for new opportunities be it a job opening, private audit/security review or simply for collaborations. Feel free to reach out via:
 
-Twitter: [@lil.eth]([https://twitter.com/nasri13611])
+Twitter: [@lil.eth](<https://twitter.com/nasri13611>)
 
 Discord: @lil_eth
 
