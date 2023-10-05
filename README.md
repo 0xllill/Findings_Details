@@ -45,37 +45,34 @@ This repository contains web3 vulnerabilities discovered during Sherlock or Code
 ### Audit Results
 
 
-## Details 
+# Details 
 
-## Tokemak
+### Tokemak
 
-## Allo_V2
+### Allo_V2
 
-## Hubble_Exchange
+### Hubble_Exchange
 - [Depositors might receive zero shares due to integer division](<https://github.com/nasri136/Findings_Details/blob/main/H_HubbleExchange_ZeroShareReceptionMightHappen.md>)
 - [Malicious user can blocks withdraws](<https://github.com/nasri136/Findings_Details/blob/main/H_HubbleExchange_WithdrawalBreakPoint.md>)
 - [Oracle.sol Assume that stablecoin Price is stable](<https://github.com/nasri136/Findings_Details/blob/main/M_HubbleExchange_StablePriceAssumption.md>)
 - [latestRoundData might return stale or incorrect results](<https://github.com/nasri136/Findings_Details/blob/main/M_HubbleExchange_StalePrice.md>) 
 
-
-
-
-## Arrakis
+### Arrakis
 - [Initialize() allows whitelisting token0 and token1 as routers](<https://github.com/nasri136/Findings_Details/blob/main/M_Arrakis_Token0_1_WhitelistIsIneffective.md>)
 - [Slot0 Usage is easily manipulable](<https://github.com/nasri136/Findings_Details/blob/main/M_Arrakis_Slot0.md>)
 
-## JOJO
+### JOJO
 
 - [Loss Of Funds When Transfering](<https://github.com/nasri136/Findings_Details/blob/main/H_JOJO_LossOfFundsWhenTransfering.md>)
 
-## RealWagmi
+### RealWagmi
 
 - [Slot0 Usage](<https://github.com/nasri136/Findings_Details/blob/main/H_RealWagmi_Slot0Usage.md>)
 - [Rounding Error](<https://github.com/nasri136/Findings_Details/blob/main/M_RealWagmi_RoundingError.md>)
 - [Rounding Error 2](<https://github.com/nasri136/Findings_Details/blob/main/M_RealWagmi_RoundingError2.md>)
 - [Manager Exit Scam](<https://github.com/nasri136/Findings_Details/blob/main/L_RealWagmi_ManagerExit.md>)
 
-## USSD
+### USSD
 
 - [Unchecked Slippage](<https://github.com/nasri136/Findings_Details/blob/main/H_USSD_UncheckedSlippage.md>)
 - [Unrestricted Minting Burning Method](<https://github.com/nasri136/Findings_Details/blob/main/H_USSD_UnrestrictedMintingBurningMethod.md>)
@@ -85,32 +82,32 @@ This repository contains web3 vulnerabilities discovered during Sherlock or Code
 - [Rounding Error](<https://github.com/nasri136/Findings_Details/blob/main/M_USSD_RoundingError.md>)
 - [Uninitialized Oracle Address](<https://github.com/nasri136/Findings_Details/blob/main/M_USSD_Uninitialized%20Oracle%20Address.md>)
 
-## Y2K
+### Y2K
 
 - [Users can update and delete others' queues](<https://github.com/nasri136/Findings_Details/blob/main/H_Y2K_Users%20can%20update%20and%20delete%20others%20queues.md>)
 
-## Derby
+### Derby
 
 - [ERC20 Return Value Not Checked](<https://github.com/nasri136/Findings_Details/blob/main/M_Derby_ERC20%20Return%20Value%20Not%20Checked.md>)
 - [Native Funds Can Be Lost](<https://github.com/nasri136/Findings_Details/blob/main/M_Derby_Native%20Funds%20Can%20Be%20Lost.md>)
 
-## Frankencoin
+### Frankencoin
 
 - [Minting limit is not well affected by cl](<https://github.com/nasri136/Findings_Details/blob/main/M_Frankencoin_Minting%20limit%20is%20not%20well%20affected%20by%20cl.md>)
 - [RestructureCaptable Not Well Implemented](<https://github.com/nasri136/Findings_Details/blob/main/M_Frankencoin_RestructureCaptable%20Not%20Well%20Implemented>)
 
-## Gitcoin
+### Gitcoin
 
 - [Lack of Access Control leading to DOS](<https://github.com/nasri136/Findings_Details/blob/main/M_Gitcoin_Lack%20of%20Access%20Control%20leading%20to%20DOS.md>)
 
-## Malt
+### Malt
 
 - [PriceTargetInconsisten](<https://github.com/nasri136/Findings_Details/blob/main/M_Malt_PriceTargetInconsisten.md>)
 
-## Telcoin
+### Telcoin
 
 - [Front Run of addBlackList()](<https://github.com/nasri136/Findings_Details/blob/main/M_Telcoin_Front%20Run%20of%20addBlackList().md>)
 
-## Bond
+### Bond
 
 - [Bond Option Token can be created too late](<https://github.com/nasri136/Findings_Details/blob/main/M_Bond_BondsCreatedTooLate.md>)
