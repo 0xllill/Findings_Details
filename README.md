@@ -14,7 +14,7 @@ Discord: @lil_eth
 
 | Overall | High risk |  Medium risk | Audited contests |
 |:--:|:--:|:--:|:--:|
-| 33 High/Medium | 11 High | 22 Medium | 5 Low |  
+| 35 High/Medium | 13 High | 22 Medium | 3 Low |  
 
 # Sherlock  <img src="https://audits.sherlock.xyz/_next/static/media/sherlock_logo.dc2b3290.svg" width=22 height=22>
 
@@ -22,8 +22,8 @@ This repository contains web3 vulnerabilities discovered during Sherlock or Code
 
 ### Audit Results
 
-1. [Allo V2 (High: 2, Medium: 2)](#Allo_V2)
-2. [Tokemak (High: 2,Medium : 0,Low : 3)](#Tokemak)
+1. [Allo V2 (High: 2, Medium: 0)](#Allo_V2)
+2. [Tokemak (High: 3,Medium : 2,Low : 2)](#Tokemak)
 3. [Hubble Exchange (High: 2, Medium: 2)](#Hubble_Exchange)
 4. [Arrakis (High: 0, Medium: 2)](#Arrakis)
 5. [JOJO (High: 1, Medium: 0)](#JOJO)
@@ -47,10 +47,15 @@ This repository contains web3 vulnerabilities discovered during Sherlock or Code
 
 # Details 
 
-### Tokemak
-
 ### Allo_V2
 
+### Tokemak
+- [User can transfer LMPVault shares to claim rewards multiple times](<https://github.com/nasri136/Findings_Details/blob/main/H_Tokemak_SharesTransfersToGetRewardsMultipleTimes.md#user-can-transfer-lmpvault-shares-to-claim-rewards-multiple-times>)
+- [ETH deposited by the user may be stolen](<https://github.com/nasri136/Findings_Details/blob/main/H_Tokemak_ETH-deposited-by-the-user-may-be-stolen.md>)
+- [Vault cannot be added back into the vault registry](<https://github.com/nasri136/Findings_Details/blob/main/M_Tokemak_Vault-cannot-be-added-back-into-the-vault-registry.md>)
+- [Missing token transfer between LiquidationRow.sol and BaseAsyncSwapper.sol during liquidation](<https://github.com/nasri136/Findings_Details/blob/main/M_Tokemak_Missing_token_transfer.md>)
+- [Incorrect Accounting of newRewards in the queueNewRewards() function of AbstractRewarder Contract](<https://github.com/nasri136/Findings_Details/blob/main/M_Tokemak_IncorrectAccounting.md#incorrect-accounting-of-newrewards-in-the-queuenewrewards-function-of-abstractrewarder-contract>)
+  
 ### Hubble_Exchange
 - [Depositors might receive zero shares due to integer division](<https://github.com/nasri136/Findings_Details/blob/main/H_HubbleExchange_ZeroShareReceptionMightHappen.md>)
 - [Malicious user can blocks withdraws](<https://github.com/nasri136/Findings_Details/blob/main/H_HubbleExchange_WithdrawalBreakPoint.md>)
