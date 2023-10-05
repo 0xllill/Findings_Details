@@ -1,6 +1,7 @@
 # About Me
 
-Hey ! I'm Lilian ,an old independent blockchain security researcher currently active in audit contests on platforms such as Sherlock,Code4rena and Codehawks. Here, you can see some of my past findings and contest results.
+Hey ! I'm Lilian ,an old web2 cybersecurity engineer which has moved to an independent smart contract security researcher currently active in audit contests on platforms such as Sherlock,Code4rena and Codehawks. Never been that happy since I take this move.
+Here, you can see some of my past findings and contest results.
 
 ### Contact Information
 I am always looking for new opportunities be it a job opening, private audit/security review or simply for collaborations. Feel free to reach out via:
