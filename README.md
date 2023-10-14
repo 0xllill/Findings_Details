@@ -15,7 +15,7 @@ Discord: @lil_eth
 
 | Overall | High risk |  Medium risk | Audited contests |
 |:--:|:--:|:--:|:--:|
-| 35 High/Medium | 13 High | 22 Medium | 3 Low |  
+| 42 High/Medium | 14 High | 28 Medium | 3 Low |  
 
 # Sherlock  <img src="https://audits.sherlock.xyz/_next/static/media/sherlock_logo.dc2b3290.svg" width=22 height=22>
 
@@ -23,7 +23,7 @@ This repository contains web3 vulnerabilities discovered during Sherlock or Code
 
 ### Audit Results
 
-1. [Allo V2 (High: 2, Medium: 0)](#Allo_V2)
+1. [Allo V2 (High: 1, Medium: 6)](#Allo_V2)
 2. [Tokemak (High: 3,Medium : 2,Low : 2)](#Tokemak)
 3. [Hubble Exchange (High: 2, Medium: 2)](#Hubble_Exchange)
 4. [Arrakis (High: 0, Medium: 2)](#Arrakis)
