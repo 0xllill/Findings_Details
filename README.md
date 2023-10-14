@@ -49,6 +49,12 @@ This repository contains web3 vulnerabilities discovered during Sherlock or Code
 # Details 
 
 ### Allo_V2
+- [Missing Access Control on a critical function](<https://github.com/nasri136/Findings_Details/blob/main/H_Gitcoin2_MissingAccessControlModifier.md>)
+- [Voice credits are never updated](<https://github.com/nasri136/Findings_Details/blob/main/M_Gitcoin2_voiceCreditsNeverUpdated.md>)
+- [Register recipient does not work when user wants to register using anchor](<https://github.com/nasri136/Findings_Details/blob/main/M_Gitcoin2_UseRegistryAnchorSetToTrueCausingNobodyCanRegisterThePool.md>)
+- [Distribute function has wrong requirement causing DOS](<https://github.com/nasri136/Findings_Details/blob/main/M_Gitcoin2_RFPSimpleStrategyWrongRequirementCausingDOS.md>)
+- [Funds locked if no recipient at all or no accepted recipient](<https://github.com/nasri136/Findings_Details/blob/main/M_Gitcoin2_Funds_LockedInSomeCases.md>)
+- [Strategies does not work with fee-on-transfer tokens](<https://github.com/nasri136/Findings_Details/blob/main/M_Gitcoin2_FeeOnTransferProblem.md>)
 
 ### Tokemak
 - [User can transfer LMPVault shares to claim rewards multiple times](<https://github.com/nasri136/Findings_Details/blob/main/H_Tokemak_SharesTransfersToGetRewardsMultipleTimes.md#user-can-transfer-lmpvault-shares-to-claim-rewards-multiple-times>)
