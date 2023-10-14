@@ -50,6 +50,7 @@ This repository contains web3 vulnerabilities discovered during Sherlock or Code
 
 ### Allo_V2
 - [Missing Access Control on a critical function](<https://github.com/nasri136/Findings_Details/blob/main/H_Gitcoin2_MissingAccessControlModifier.md>)
+- [Exponential inflation of voices credits](<https://github.com/nasri136/Findings_Details/blob/main/M_Gitcoin2_ExponentialInflationOfVoicesCredits.md>)
 - [Voice credits are never updated](<https://github.com/nasri136/Findings_Details/blob/main/M_Gitcoin2_voiceCreditsNeverUpdated.md>)
 - [Register recipient does not work when user wants to register using anchor](<https://github.com/nasri136/Findings_Details/blob/main/M_Gitcoin2_UseRegistryAnchorSetToTrueCausingNobodyCanRegisterThePool.md>)
 - [Distribute function has wrong requirement causing DOS](<https://github.com/nasri136/Findings_Details/blob/main/M_Gitcoin2_RFPSimpleStrategyWrongRequirementCausingDOS.md>)
