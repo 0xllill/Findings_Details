@@ -15,16 +15,16 @@ Discord: @lil_eth
 
 | Overall | High risk |  Medium risk | Audited contests |
 |:--:|:--:|:--:|:--:|
-| 41 High/Medium | 14 High | 28 Medium | 3 Low |  
+| 41 High/Medium | 13 High | 28 Medium | 3 Low |  
 
 # Sherlock  <img src="https://audits.sherlock.xyz/_next/static/media/sherlock_logo.dc2b3290.svg" width=22 height=22>
 
-This repository contains web3 vulnerabilities discovered during Sherlock or Code4rena bug bounty contests. They are organized by the protocol in which they were found.
+This repository contains web3 vulnerabilities discovered during Sherlock bug bounty contests. They are organized by the protocol in which they were found.
 
 ### Audit Results
 
 1. [Allo V2 (High: 1, Medium: 6)](#Allo_V2)
-2. [Tokemak (High: 3,Medium : 2,Low : 2)](#Tokemak)
+2. [Tokemak (High: 2,Medium : 2,Low : 2)](#Tokemak)
 3. [Hubble Exchange (High: 2, Medium: 2)](#Hubble_Exchange)
 4. [Arrakis (High: 0, Medium: 2)](#Arrakis)
 5. [JOJO (High: 1, Medium: 0)](#JOJO)
@@ -41,12 +41,17 @@ This repository contains web3 vulnerabilities discovered during Sherlock or Code
 
 # CodeHawks <img src="https://res.cloudinary.com/droqoz7lg/image/upload/v1689080263/snhkgvtsidryjdtx0pce.png" width=50 height=27>
 
-This repository contains web3 vulnerabilities discovered during Sherlock or Code4rena bug bounty contests. They are organized by the protocol in which they were found.
+This repository contains web3 vulnerabilities discovered during CodeHawks bug bounty contests. They are organized by the protocol in which they were found.
 
 ### Audit Results
+1. [DittoETH (High: 2, Medium: 1)](#DittoETH)
 
+# Details
 
-# Details 
+### DittoETH
+- [](<>)
+- [](<>)
+- [](<>)
 
 ### Allo_V2
 - [Missing Access Control on a critical function](<https://github.com/nasri136/Findings_Details/blob/main/H_Gitcoin2_MissingAccessControlModifier.md>)
@@ -59,7 +64,6 @@ This repository contains web3 vulnerabilities discovered during Sherlock or Code
 
 ### Tokemak
 - [User can transfer LMPVault shares to claim rewards multiple times](<https://github.com/nasri136/Findings_Details/blob/main/H_Tokemak_SharesTransfersToGetRewardsMultipleTimes.md#user-can-transfer-lmpvault-shares-to-claim-rewards-multiple-times>)
-- [ETH deposited by the user may be stolen](<https://github.com/nasri136/Findings_Details/blob/main/H_Tokemak_ETH-deposited-by-the-user-may-be-stolen.md>)
 - [Vault cannot be added back into the vault registry](<https://github.com/nasri136/Findings_Details/blob/main/M_Tokemak_Vault-cannot-be-added-back-into-the-vault-registry.md>)
 - [Missing token transfer between LiquidationRow.sol and BaseAsyncSwapper.sol during liquidation](<https://github.com/nasri136/Findings_Details/blob/main/M_Tokemak_Missing_token_transfer.md>)
 - [Incorrect Accounting of newRewards in the queueNewRewards() function of AbstractRewarder Contract](<https://github.com/nasri136/Findings_Details/blob/main/M_Tokemak_IncorrectAccounting.md#incorrect-accounting-of-newrewards-in-the-queuenewrewards-function-of-abstractrewarder-contract>)
