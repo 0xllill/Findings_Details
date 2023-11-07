@@ -15,7 +15,7 @@ Discord: @lil_eth
 
 | Overall | High risk |  Medium risk | Audited contests |
 |:--:|:--:|:--:|:--:|
-| 41 High/Medium | 13 High | 28 Medium | 3 Low |  
+| 40 High/Medium | 12 High | 28 Medium | 3 Low |  
 
 # Sherlock  <img src="https://audits.sherlock.xyz/_next/static/media/sherlock_logo.dc2b3290.svg" width=22 height=22>
 
@@ -49,9 +49,9 @@ This repository contains web3 vulnerabilities discovered during CodeHawks bug bo
 # Details
 
 ### DittoETH
-- [](<>)
-- [](<>)
-- [](<>)
+- [Front running flagger/liquidator by transfering short NFT](<https://github.com/nasri136/Findings_Details/blob/main/H_DittoETH_PreventLiquidation.md>)
+- [cancelled Orders owners via cancelOrderFarFromOracle lose their money](<https://github.com/nasri136/Findings_Details/blob/main/H_DittoETH_CancelledOrdersLoseMoney.md>)
+- [Possible DOS on deposit(), withdraw() and unstake() for BridgeReth, leading to user loss of funds](<https://github.com/nasri136/Findings_Details/blob/main/M_DittoETH_PossibleDOS.md>)
 
 ### Allo_V2
 - [Missing Access Control on a critical function](<https://github.com/nasri136/Findings_Details/blob/main/H_Gitcoin2_MissingAccessControlModifier.md>)
